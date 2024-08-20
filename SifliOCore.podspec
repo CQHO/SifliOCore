@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SifliOCore.framework/Headers/*.{h}"
+  spec.source_files  = "SifliOCore/SifliOCore.xcframework/ios-arm64/SifliOCore.framework/Headers/**/*", "SifliOCore/SifliOCore.xcframework/ios-x86_64/SifliOCore.framework/Headers/**/*"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
