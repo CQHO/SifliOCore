@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SifliOCore"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "SifliOCore.思澈sdk的核心依赖库"
 
   # This description is used to generate tags and improve search results.
@@ -97,7 +97,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SifliOCore/SifliOCore.xcframework/ios-arm64/SifliOCore.framework/Headers/**/*", "SifliOCore/SifliOCore.xcframework/ios-x86_64/SifliOCore.framework/Headers/**/*"
+  spec.source_files  = "SifliOCore.xcframework/ios-arm64/SifliOCore.framework/Headers/**/*", "SifliOCore.xcframework/ios-x86_64/SifliOCore.framework/Headers/**/*"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -128,7 +128,7 @@ Pod::Spec.new do |spec|
 
   # spec.library   = "iconv"
    spec.libraries = "iconv","z"
-   spec.vendored_frameworks = 'SifliOCore.framework'
+   spec.vendored_frameworks = 'SifliOCore.xcframework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
