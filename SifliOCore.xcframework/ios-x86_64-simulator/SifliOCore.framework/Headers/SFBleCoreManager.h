@@ -19,7 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 //发现了外设
 - (void)bleCoreManager:(SFBleCoreManager *)manager didDiscover:(SFCBPeripheral *) peripheral;
 //连接失败
-- (void)bleCoreManager:(SFBleCoreManager *)manager failedToConnectPeripheral:(SFCBPeripheral *) peripheral error:(SFCoreError *) error;
+- (void)bleCoreManager:(SFBleCoreManager *)manager failedToConnectPeripheral:(SFCBPeripheral *) peripheral error:(SFCoreError *)error;
+- (void)bleCoreManager:(SFBleCoreManager *)manager disconnectToPeripheral:(SFCBPeripheral *) peripheral error:(SFCoreError *)error;
 //连接失败
 - (void)bleCoreManager:(SFBleCoreManager *)manager successToConnect:(SFCBPeripheral *) peripheral handeShaked:(BOOL) handeShaked;
 //连接成功

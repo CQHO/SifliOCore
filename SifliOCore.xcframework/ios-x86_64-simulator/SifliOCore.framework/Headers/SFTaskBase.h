@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)startTimer;
 - (void)stopTimer;
 - (void)setCountDown:(NSInteger)countDown;
-
+- (NSUInteger)getContinueSendNoResponsePacketCount:(NSUInteger)newIndex rspFreq:(NSUInteger)rspFreq;
 
 @end
 

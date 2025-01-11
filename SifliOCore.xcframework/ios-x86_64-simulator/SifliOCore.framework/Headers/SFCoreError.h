@@ -14,7 +14,9 @@ typedef NS_ENUM(NSUInteger, SFCoreErrorType) {
     SFCoreErrorTypeCanceled,
     SFCoreErrorTypeDisconnected,
     SFCoreErrorTypeFailedToConnect,
-    SFCoreErrorTypeUserStop
+    SFCoreErrorTypeUserStop,
+    SFCoreErrorTypeInvalidParameter,
+    SFCoreErrorTypeReadFileError
 };
 
 @interface SFCoreError : NSObject

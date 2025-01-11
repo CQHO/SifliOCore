@@ -29,4 +29,7 @@ FOUNDATION_EXPORT const unsigned char SifliOCoreVersionString[];
 #import <SifliOCore/SFSSZipArchive.h>
 #import <SifliOCore/SFFolderUtil.h>
 #import <SifliOCore/SFFileUtil.h>
+#import <SifliOCore/SFResult.h>
+#import <SifliOCore/SFStringUtil.h>
+#import <SifliOCore/SFSysTool.h>
 //#import <SifliOCore/NSData+Sumary.h>

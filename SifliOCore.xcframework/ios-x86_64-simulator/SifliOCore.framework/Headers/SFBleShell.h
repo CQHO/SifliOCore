@@ -11,7 +11,7 @@
 #import <SifliOCore/SFModuleBase.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
+static NSString * const kOCoreVersion = @"1.0.4";
 typedef NS_ENUM(NSUInteger, SFBleShellStatus) {
     //空闲
     SFBleShellStatusNone = 0,
@@ -46,6 +46,8 @@ typedef NS_ENUM(NSUInteger, SFBleShellStatus) {
 - (void)clearCaches;
 //返回蓝牙是否可用
 - (SFBleCoreManagerState)bleCoreState;
+///设置blecore的委托到自身，避免多模块工作冲突。
+- (void)updateBleCoreDelegateToSelf;
 
 @end
 
